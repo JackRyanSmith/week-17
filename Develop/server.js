@@ -1,8 +1,8 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const morgan = require('morgan');
-const Workout = require('../../../bootcampspot-week17-hw/models/workout');
-const path = require('path');
+var express = require('express');
+var mongoose = require('mongoose');
+var morgan = require('morgan');
+var Workout = require('../../../bootcampspot-week17-hw/models/workout');
+var path = require('path');
 
 
 const PORT = process.env.PORT || 3000;
